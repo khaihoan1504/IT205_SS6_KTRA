@@ -21,7 +21,7 @@ while True:
 #Câu 3
 ton_kho = 100
 while True:
-    inp = int(input('Số lượng muốn xuất: '))
+    inp = int(input('Số lượng muốn xuất (-1 để thoát): '))
     if inp < 0:
         print('Không được nhập số âm, vui lòng nhập lại!')
         continue
