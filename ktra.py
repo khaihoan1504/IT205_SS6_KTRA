@@ -28,7 +28,7 @@ while True:
     elif inp > ton_kho:
         print('Kho không đủ hàng, vui lòng nhập lại!')
         continue
-    elif 0 <= inp and inp <= 100:
+    else:
         ton_kho -= inp
         print('Xuất kho thành công!')
         print(f'Tồn kho còn lại: [{ton_kho}]')
